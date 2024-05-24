@@ -76,7 +76,7 @@ $(document).ready(function() {
     <tr class="info">
       <td>EWP_auto_test</td>
         <td>1</td>
-      <td>24 May 2024, 07:26</td>
+      <td>24 May 2024, 09:13</td>
     </tr>
   </tbody>
 </table>
@@ -129,19 +129,19 @@ $(document).ready(function() {
         <tbody>
         <tr>
           <td class="tagname">@coveo_search_help_and_support_hhtc_rollback</td>
-          <td      class="passed"    >41</td>
-          <td      class="failed"    >2</td>
-          <td     class="skipped"   >2</td>
+          <td      class="passed"    >45</td>
+          <td >0</td>
+          <td >0</td>
           <td >0</td>
           <td >0</td>
           <td class="total">45</td>
 
-          <td  class="passed"    >13</td>
-          <td  class="failed"    >2</td>
+          <td  class="passed"    >15</td>
+          <td >0</td>
           <td class="total">15</td>
 
-          <td class="duration" data-value="208486202000">3:28.486</td>
-          <td class="failed">Failed</td>
+          <td class="duration" data-value="144067370000">2:24.067</td>
+          <td class="passed">Passed</td>
         </tr>
         </tbody>
 
@@ -185,12 +185,12 @@ $(document).ready(function() {
 </div>
 
 
-  <span class="lead-duration duration">30.148</span>
+  <span class="lead-duration duration">4.167</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-1">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Search for HHTC article resource &quot;deleting-temporary-internet-files-or-cached-files.htm&quot;on Help and Support site</span>
 
@@ -201,7 +201,7 @@ $(document).ready(function() {
   </span>
   <div class="description indention"></div>
 
-  <div id="element-1" class="collapse collapsable-details  in ">
+  <div id="element-1" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
@@ -223,7 +223,7 @@ $(document).ready(function() {
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.243</span>
+  <span class="lead-duration duration">0.238</span>
 
           </div>
 
@@ -240,9 +240,9 @@ $(document).ready(function() {
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-3">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -252,7 +252,7 @@ $(document).ready(function() {
 
   </div>
 
-  <div id="steps-3" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -260,7 +260,7 @@ $(document).ready(function() {
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">0.085</span>
+  <span class="lead-duration duration">2.259</span>
 
 </div>
 
@@ -283,11 +283,11 @@ $(document).ready(function() {
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;deleting-temporary-internet-files-or-cached-files.htm&quot;</span></span>
 
-  <span class="lead-duration duration">30.063</span>
+  <span class="lead-duration duration">1.274</span>
 
 </div>
 
@@ -295,47 +295,6 @@ $(document).ready(function() {
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-4">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-4" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.magic-box-input input&quot;}
-  (Session info: chrome-headless-shell=125.0.6422.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [b692bc8d899625d6dbdb306cefff5bbd, findElement {using=css selector, value=div.magic-box-input input}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome-headless-shell, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:39511}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:39511/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: b692bc8d899625d6dbdb306cefff5bbd
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy30.isDisplayed(Unknown Source)
-	at com.tr.emcm.cucumber.pages.aem_publishing.ewp.HelpAndSupportPage.searchFor(HelpAndSupportPage.java:265)
-	at com.tr.emcm.cucumber.stepdefs.publishing.HelpAndSupportStepDefinitions.iSearchFor(HelpAndSupportStepDefinitions.java:58)
-	at &#10045;.I search for &quot;deleting-temporary-internet-files-or-cached-files.htm&quot;(file:///home/runner/work/digital_ewp-auto-test/digital_ewp-auto-test/src/test/resources/features/publishing/coveo/coveo_search_help_and_support.feature:203)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -351,11 +310,11 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;deleting-temporary-internet-files-or-cached-files.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.632</span>
 
 </div>
 
@@ -382,7 +341,7 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-5">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-4">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -394,13 +353,13 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
     </div>
 
-    <div id="after-5" class="inner-level collapse collapsable-details ">
+    <div id="after-4" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.211</span>
+  <span class="lead-duration duration">0.365</span>
 
           </div>
 
@@ -411,16 +370,16 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-6" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-5" class="collapsable-control">
     <a>Search for HHTC article resource &quot;deleting-temporary-internet-files-or-cached-files.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_-990756219.html" download target="_blank">
+    <a href="embeddings/embedding_-60476633.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-6" class="collapse collapsable-details ">
+  <div id="embedding-5" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-990756219.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot2891191305865743083.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-60476633.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=deleting-temporary-internet-files-or-cached-files.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot10263756470888407196.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -450,12 +409,12 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 </div>
 
 
-  <span class="lead-duration duration">30.205</span>
+  <span class="lead-duration duration">3.810</span>
 
 
-  <span data-toggle="collapse" class=" collapsable-control" data-target="#element-7">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-6">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
   <span class="name">Search for HHTC article resource &quot;export-data-from-onvio.htm&quot;on Help and Support site</span>
 
@@ -466,11 +425,11 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
   </span>
   <div class="description indention"></div>
 
-  <div id="element-7" class="collapse collapsable-details  in ">
+  <div id="element-6" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-8">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-7">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -482,13 +441,13 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
     </div>
 
-    <div id="before-8" class="inner-level collapse collapsable-details ">
+    <div id="before-7" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.266</span>
+  <span class="lead-duration duration">0.221</span>
 
           </div>
 
@@ -505,9 +464,9 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsable-control" data-target="#steps-9">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-8">
 
-<div class="brief failed">
+<div class="brief passed">
   <span class="keyword indention">Steps</span>
   <span class="name"></span>
 
@@ -517,7 +476,7 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
   </div>
 
-  <div id="steps-9" class="inner-level collapse collapsable-details  in ">
+  <div id="steps-8" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -525,7 +484,7 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">0.179</span>
+  <span class="lead-duration duration">2.119</span>
 
 </div>
 
@@ -548,11 +507,11 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
       <div class="step">
 
 
-<div class="brief step-name-When failed">
+<div class="brief step-name-When passed">
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;export-data-from-onvio.htm&quot;</span></span>
 
-  <span class="lead-duration duration">30.026</span>
+  <span class="lead-duration duration">1.068</span>
 
 </div>
 
@@ -560,47 +519,6 @@ Session ID: b692bc8d899625d6dbdb306cefff5bbd
 
 
 
-
-  <div class="inner-level">
-    <div class="message indention">
-      <div data-toggle="collapse" class=" collapsable-control" data-target="#msg-10">
-          <a>org.openqa.selenium.NoSuchElementException:</a>
-      </div>
-      <div id="msg-10" class="collapse collapsable-details  in ">
-        <pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;css selector&quot;,&quot;selector&quot;:&quot;div.magic-box-input input&quot;}
-  (Session info: chrome-headless-shell=125.0.6422.60)
-For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
-Build info: version: '4.13.0', revision: 'ba948ece5b*'
-System info: os.name: 'Linux', os.arch: 'amd64', os.version: '6.5.0-1021-azure', java.version: '11.0.23'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [f765157ca04aa13be784e33925344b03, findElement {using=css selector, value=div.magic-box-input input}]
-Capabilities {acceptInsecureCerts: true, browserName: chrome-headless-shell, browserVersion: 125.0.6422.60, chrome: {chromedriverVersion: 125.0.6422.78 (14db42ec38ad..., userDataDir: /tmp/.org.chromium.Chromium...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:37947}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: linux, proxy: Proxy(), se:cdp: ws://localhost:37947/devtoo..., se:cdpVersion: 125.0.6422.60, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: accept, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: f765157ca04aa13be784e33925344b03
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:52)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:191)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:196)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:171)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
-	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:165)
-	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:59)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:359)
-	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:353)
-	at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-	at com.sun.proxy.$Proxy30.isDisplayed(Unknown Source)
-	at com.tr.emcm.cucumber.pages.aem_publishing.ewp.HelpAndSupportPage.searchFor(HelpAndSupportPage.java:265)
-	at com.tr.emcm.cucumber.stepdefs.publishing.HelpAndSupportStepDefinitions.iSearchFor(HelpAndSupportStepDefinitions.java:58)
-	at &#10045;.I search for &quot;export-data-from-onvio.htm&quot;(file:///home/runner/work/digital_ewp-auto-test/digital_ewp-auto-test/src/test/resources/features/publishing/coveo/coveo_search_help_and_support.feature:203)
-</pre>
-      </div>
-    </div>
-  </div>
 
 
 
@@ -616,11 +534,11 @@ Session ID: f765157ca04aa13be784e33925344b03
       <div class="step">
 
 
-<div class="brief step-name-Then skipped">
+<div class="brief step-name-Then passed">
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;export-data-from-onvio.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.000</span>
+  <span class="lead-duration duration">0.622</span>
 
 </div>
 
@@ -647,7 +565,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-11">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-9">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -659,13 +577,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-11" class="inner-level collapse collapsable-details ">
+    <div id="after-9" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.206</span>
+  <span class="lead-duration duration">0.398</span>
 
           </div>
 
@@ -676,16 +594,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-12" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-10" class="collapsable-control">
     <a>Search for HHTC article resource &quot;export-data-from-onvio.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_831409491.html" download target="_blank">
+    <a href="embeddings/embedding_-1045648060.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-12" class="collapse collapsable-details ">
+  <div id="embedding-10" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_831409491.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot5458869465644286788.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1045648060.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=export-data-from-onvio.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot14126203090352710066.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -715,10 +633,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">7.043</span>
+  <span class="lead-duration duration">4.129</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-13">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-11">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -731,11 +649,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-13" class="collapse collapsable-details ">
+  <div id="element-11" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-14">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-12">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -747,13 +665,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-14" class="inner-level collapse collapsable-details ">
+    <div id="before-12" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.284</span>
+  <span class="lead-duration duration">0.291</span>
 
           </div>
 
@@ -770,7 +688,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-15">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-13">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -782,7 +700,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-15" class="inner-level collapse collapsable-details ">
+  <div id="steps-13" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -790,7 +708,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">3.621</span>
+  <span class="lead-duration duration">3.091</span>
 
 </div>
 
@@ -817,7 +735,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;adding_image_annotations.htm&quot;</span></span>
 
-  <span class="lead-duration duration">2.795</span>
+  <span class="lead-duration duration">0.425</span>
 
 </div>
 
@@ -844,7 +762,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;adding_image_annotations.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.627</span>
+  <span class="lead-duration duration">0.612</span>
 
 </div>
 
@@ -871,7 +789,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-16">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-14">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -883,13 +801,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-16" class="inner-level collapse collapsable-details ">
+    <div id="after-14" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.402</span>
+  <span class="lead-duration duration">0.370</span>
 
           </div>
 
@@ -900,16 +818,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-17" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-15" class="collapsable-control">
     <a>Search for HHTC article resource &quot;adding_image_annotations.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_1273702682.html" download target="_blank">
+    <a href="embeddings/embedding_1480175473.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-17" class="collapse collapsable-details ">
+  <div id="embedding-15" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1273702682.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=adding_image_annotations.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot8328778676982824074.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1480175473.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=adding_image_annotations.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot3342418190106686622.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -939,10 +857,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">4.529</span>
+  <span class="lead-duration duration">3.954</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-18">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-16">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -955,11 +873,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-18" class="collapse collapsable-details ">
+  <div id="element-16" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-19">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-17">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -971,13 +889,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-19" class="inner-level collapse collapsable-details ">
+    <div id="before-17" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.266</span>
+  <span class="lead-duration duration">0.231</span>
 
           </div>
 
@@ -994,7 +912,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-20">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-18">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1006,7 +924,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-20" class="inner-level collapse collapsable-details ">
+  <div id="steps-18" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1014,7 +932,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">3.418</span>
+  <span class="lead-duration duration">2.782</span>
 
 </div>
 
@@ -1041,7 +959,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;csh_individual401kscreen_2009.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.485</span>
+  <span class="lead-duration duration">0.563</span>
 
 </div>
 
@@ -1068,7 +986,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;csh_individual401kscreen_2009.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.625</span>
+  <span class="lead-duration duration">0.608</span>
 
 </div>
 
@@ -1095,7 +1013,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-21">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-19">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1107,13 +1025,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-21" class="inner-level collapse collapsable-details ">
+    <div id="after-19" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.366</span>
+  <span class="lead-duration duration">0.361</span>
 
           </div>
 
@@ -1124,16 +1042,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-22" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-20" class="collapsable-control">
     <a>Search for HHTC article resource &quot;csh_individual401kscreen_2009.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_-742556762.html" download target="_blank">
+    <a href="embeddings/embedding_-1899936657.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-22" class="collapse collapsable-details ">
+  <div id="embedding-20" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-742556762.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csh_individual401kscreen_2009.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot11555675468722379237.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1899936657.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csh_individual401kscreen_2009.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot15421277778037733133.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -1163,10 +1081,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">3.646</span>
+  <span class="lead-duration duration">4.537</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-23">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-21">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1179,11 +1097,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-23" class="collapse collapsable-details ">
+  <div id="element-21" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-24">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-22">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1195,13 +1113,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-24" class="inner-level collapse collapsable-details ">
+    <div id="before-22" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.260</span>
+  <span class="lead-duration duration">0.224</span>
 
           </div>
 
@@ -1218,7 +1136,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-25">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-23">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1230,7 +1148,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-25" class="inner-level collapse collapsable-details ">
+  <div id="steps-23" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1238,7 +1156,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.123</span>
+  <span class="lead-duration duration">3.495</span>
 
 </div>
 
@@ -1265,7 +1183,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;csh_individual401kscreen_2010.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.885</span>
+  <span class="lead-duration duration">0.426</span>
 
 </div>
 
@@ -1292,7 +1210,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;csh_individual401kscreen_2010.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.636</span>
+  <span class="lead-duration duration">0.615</span>
 
 </div>
 
@@ -1319,7 +1237,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-26">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-24">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1331,13 +1249,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-26" class="inner-level collapse collapsable-details ">
+    <div id="after-24" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.392</span>
+  <span class="lead-duration duration">0.412</span>
 
           </div>
 
@@ -1348,16 +1266,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-27" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-25" class="collapsable-control">
     <a>Search for HHTC article resource &quot;csh_individual401kscreen_2010.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_-945411312.html" download target="_blank">
+    <a href="embeddings/embedding_1720970072.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-27" class="collapse collapsable-details ">
+  <div id="embedding-25" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-945411312.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csh_individual401kscreen_2010.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot10646549363673763073.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1720970072.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csh_individual401kscreen_2010.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot12116262590474541285.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -1387,10 +1305,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">4.549</span>
+  <span class="lead-duration duration">4.139</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-28">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-26">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1403,11 +1321,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-28" class="collapse collapsable-details ">
+  <div id="element-26" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-29">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-27">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1419,13 +1337,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-29" class="inner-level collapse collapsable-details ">
+    <div id="before-27" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.237</span>
+  <span class="lead-duration duration">0.256</span>
 
           </div>
 
@@ -1442,7 +1360,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-30">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-28">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1454,7 +1372,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-30" class="inner-level collapse collapsable-details ">
+  <div id="steps-28" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1462,7 +1380,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">3.450</span>
+  <span class="lead-duration duration">2.417</span>
 
 </div>
 
@@ -1489,7 +1407,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;csi_connect_for_windows_menu.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.481</span>
+  <span class="lead-duration duration">1.108</span>
 
 </div>
 
@@ -1516,7 +1434,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;csi_connect_for_windows_menu.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.617</span>
+  <span class="lead-duration duration">0.613</span>
 
 </div>
 
@@ -1543,7 +1461,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-31">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-29">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1555,13 +1473,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-31" class="inner-level collapse collapsable-details ">
+    <div id="after-29" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.438</span>
+  <span class="lead-duration duration">0.381</span>
 
           </div>
 
@@ -1572,16 +1490,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-32" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-30" class="collapsable-control">
     <a>Search for HHTC article resource &quot;csi_connect_for_windows_menu.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_-1142734069.html" download target="_blank">
+    <a href="embeddings/embedding_-1923044112.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-32" class="collapse collapsable-details ">
+  <div id="embedding-30" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1142734069.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csi_connect_for_windows_menu.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot5542016162263216721.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1923044112.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=csi_connect_for_windows_menu.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot6341373894528437486.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -1611,10 +1529,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">6.513</span>
+  <span class="lead-duration duration">3.914</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-33">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-31">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1627,11 +1545,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-33" class="collapse collapsable-details ">
+  <div id="element-31" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-34">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-32">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1643,13 +1561,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-34" class="inner-level collapse collapsable-details ">
+    <div id="before-32" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.264</span>
+  <span class="lead-duration duration">0.222</span>
 
           </div>
 
@@ -1666,7 +1584,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-35">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-33">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1678,7 +1596,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-35" class="inner-level collapse collapsable-details ">
+  <div id="steps-33" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1686,7 +1604,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">5.430</span>
+  <span class="lead-duration duration">2.345</span>
 
 </div>
 
@@ -1713,7 +1631,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;approving_and_posting_receipts.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.873</span>
+  <span class="lead-duration duration">0.964</span>
 
 </div>
 
@@ -1740,7 +1658,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should see no search results for <span class="argument">&quot;approving_and_posting_receipts.htm&quot;</span></span>
 
-  <span class="lead-duration duration">0.209</span>
+  <span class="lead-duration duration">0.605</span>
 
 </div>
 
@@ -1767,7 +1685,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-36">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-34">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1779,13 +1697,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-36" class="inner-level collapse collapsable-details ">
+    <div id="after-34" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.368</span>
+  <span class="lead-duration duration">0.356</span>
 
           </div>
 
@@ -1796,16 +1714,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-37" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-35" class="collapsable-control">
     <a>Search for HHTC article resource &quot;approving_and_posting_receipts.htm&quot;on Help and Support site</a>
-    <a href="embeddings/embedding_-859316525.html" download target="_blank">
+    <a href="embeddings/embedding_-1764818606.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-37" class="collapse collapsable-details ">
+  <div id="embedding-35" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-859316525.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=approving_and_posting_receipts.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot4692078524549217402.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1764818606.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=approving_and_posting_receipts.htm&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot7810816750273171124.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -1835,10 +1753,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">15.427</span>
+  <span class="lead-duration duration">14.184</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-38">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-36">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -1851,11 +1769,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-38" class="collapse collapsable-details ">
+  <div id="element-36" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-39">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-37">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -1867,13 +1785,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-39" class="inner-level collapse collapsable-details ">
+    <div id="before-37" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.245</span>
+  <span class="lead-duration duration">0.226</span>
 
           </div>
 
@@ -1890,7 +1808,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-40">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-38">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -1902,7 +1820,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-40" class="inner-level collapse collapsable-details ">
+  <div id="steps-38" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -1910,7 +1828,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.650</span>
+  <span class="lead-duration duration">2.179</span>
 
 </div>
 
@@ -1937,7 +1855,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;deleting temporary internet files or cached files&quot;</span></span>
 
-  <span class="lead-duration duration">1.059</span>
+  <span class="lead-duration duration">1.127</span>
 
 </div>
 
@@ -1964,7 +1882,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">11.717</span>
+  <span class="lead-duration duration">10.876</span>
 
 </div>
 
@@ -2011,7 +1929,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-41">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-39">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2023,13 +1941,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-41" class="inner-level collapse collapsable-details ">
+    <div id="after-39" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.446</span>
+  <span class="lead-duration duration">0.471</span>
 
           </div>
 
@@ -2040,16 +1958,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-42" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-40" class="collapsable-control">
     <a>Search for text &quot;deleting temporary internet files or cached files&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_-2078263495.html" download target="_blank">
+    <a href="embeddings/embedding_-543693956.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-42" class="collapse collapsable-details ">
+  <div id="embedding-40" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-2078263495.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=deleting%20temporary%20internet%20files%20or%20cached%20files&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot12481163874605776163.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-543693956.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=deleting%20temporary%20internet%20files%20or%20cached%20files&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot6154330824967667313.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -2079,10 +1997,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">17.558</span>
+  <span class="lead-duration duration">13.253</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-43">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-41">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -2095,11 +2013,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-43" class="collapse collapsable-details ">
+  <div id="element-41" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-44">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-42">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2111,13 +2029,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-44" class="inner-level collapse collapsable-details ">
+    <div id="before-42" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.263</span>
+  <span class="lead-duration duration">0.230</span>
 
           </div>
 
@@ -2134,7 +2052,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-45">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-43">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2146,7 +2064,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-45" class="inner-level collapse collapsable-details ">
+  <div id="steps-43" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2154,7 +2072,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">4.839</span>
+  <span class="lead-duration duration">2.966</span>
 
 </div>
 
@@ -2181,7 +2099,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;export data from onvio&quot;</span></span>
 
-  <span class="lead-duration duration">0.892</span>
+  <span class="lead-duration duration">0.379</span>
 
 </div>
 
@@ -2208,7 +2126,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">11.826</span>
+  <span class="lead-duration duration">9.907</span>
 
 </div>
 
@@ -2255,7 +2173,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-46">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-44">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2267,13 +2185,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-46" class="inner-level collapse collapsable-details ">
+    <div id="after-44" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.400</span>
+  <span class="lead-duration duration">0.473</span>
 
           </div>
 
@@ -2284,16 +2202,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-47" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-45" class="collapsable-control">
     <a>Search for text &quot;export data from onvio&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_613574640.html" download target="_blank">
+    <a href="embeddings/embedding_1978884322.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-47" class="collapse collapsable-details ">
+  <div id="embedding-45" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_613574640.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=export%20data%20from%20onvio&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot10734479105350521758.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1978884322.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=export%20data%20from%20onvio&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot2669529537039616.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -2323,10 +2241,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">15.746</span>
+  <span class="lead-duration duration">15.232</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-48">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-46">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -2339,11 +2257,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-48" class="collapse collapsable-details ">
+  <div id="element-46" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-49">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-47">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2355,13 +2273,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-49" class="inner-level collapse collapsable-details ">
+    <div id="before-47" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.314</span>
+  <span class="lead-duration duration">0.218</span>
 
           </div>
 
@@ -2378,7 +2296,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-50">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-48">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2390,7 +2308,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-50" class="inner-level collapse collapsable-details ">
+  <div id="steps-48" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2398,7 +2316,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.586</span>
+  <span class="lead-duration duration">2.624</span>
 
 </div>
 
@@ -2425,7 +2343,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;how annotations are positioned in the document&quot;</span></span>
 
-  <span class="lead-duration duration">0.975</span>
+  <span class="lead-duration duration">0.820</span>
 
 </div>
 
@@ -2452,7 +2370,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">12.184</span>
+  <span class="lead-duration duration">11.788</span>
 
 </div>
 
@@ -2499,7 +2417,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-51">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-49">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2511,13 +2429,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-51" class="inner-level collapse collapsable-details ">
+    <div id="after-49" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.403</span>
+  <span class="lead-duration duration">0.417</span>
 
           </div>
 
@@ -2528,16 +2446,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-52" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-50" class="collapsable-control">
     <a>Search for text &quot;how annotations are positioned in the document&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_-554722566.html" download target="_blank">
+    <a href="embeddings/embedding_456215799.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-52" class="collapse collapsable-details ">
+  <div id="embedding-50" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-554722566.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=how%20annotations%20are%20positioned%20in%20the%20document&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot17651080815285278512.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_456215799.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=how%20annotations%20are%20positioned%20in%20the%20document&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot18413695956120850907.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -2567,10 +2485,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">15.799</span>
+  <span class="lead-duration duration">14.110</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-53">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-51">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -2583,11 +2501,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-53" class="collapse collapsable-details ">
+  <div id="element-51" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-54">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-52">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2599,13 +2517,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-54" class="inner-level collapse collapsable-details ">
+    <div id="before-52" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.257</span>
+  <span class="lead-duration duration">0.223</span>
 
           </div>
 
@@ -2622,7 +2540,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-55">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-53">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2634,7 +2552,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-55" class="inner-level collapse collapsable-details ">
+  <div id="steps-53" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2642,7 +2560,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.510</span>
+  <span class="lead-duration duration">2.277</span>
 
 </div>
 
@@ -2669,7 +2587,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;CS Connect includes commands&quot;</span></span>
 
-  <span class="lead-duration duration">0.872</span>
+  <span class="lead-duration duration">1.107</span>
 
 </div>
 
@@ -2696,7 +2614,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">12.417</span>
+  <span class="lead-duration duration">10.725</span>
 
 </div>
 
@@ -2743,7 +2661,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-56">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-54">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2755,13 +2673,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-56" class="inner-level collapse collapsable-details ">
+    <div id="after-54" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.508</span>
+  <span class="lead-duration duration">0.527</span>
 
           </div>
 
@@ -2772,16 +2690,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-57" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-55" class="collapsable-control">
     <a>Search for text &quot;CS Connect includes commands&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_1392425754.html" download target="_blank">
+    <a href="embeddings/embedding_1313577830.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-57" class="collapse collapsable-details ">
+  <div id="embedding-55" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1392425754.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=CS%20Connect%20includes%20commands&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot13287256611914004269.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1313577830.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=CS%20Connect%20includes%20commands&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot7379541624988919324.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -2811,10 +2729,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">12.984</span>
+  <span class="lead-duration duration">14.237</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-58">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-56">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -2827,11 +2745,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-58" class="collapse collapsable-details ">
+  <div id="element-56" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-59">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-57">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2843,13 +2761,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-59" class="inner-level collapse collapsable-details ">
+    <div id="before-57" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.233</span>
+  <span class="lead-duration duration">0.258</span>
 
           </div>
 
@@ -2866,7 +2784,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-60">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-58">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -2878,7 +2796,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-60" class="inner-level collapse collapsable-details ">
+  <div id="steps-58" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -2886,7 +2804,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.305</span>
+  <span class="lead-duration duration">3.568</span>
 
 </div>
 
@@ -2913,7 +2831,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;401k contributions 2009&quot;</span></span>
 
-  <span class="lead-duration duration">0.764</span>
+  <span class="lead-duration duration">0.970</span>
 
 </div>
 
@@ -2940,7 +2858,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">9.913</span>
+  <span class="lead-duration duration">9.698</span>
 
 </div>
 
@@ -2987,7 +2905,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-61">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-59">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -2999,13 +2917,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-61" class="inner-level collapse collapsable-details ">
+    <div id="after-59" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.447</span>
+  <span class="lead-duration duration">0.409</span>
 
           </div>
 
@@ -3016,16 +2934,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-62" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-60" class="collapsable-control">
     <a>Search for text &quot;401k contributions 2009&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_-2070528119.html" download target="_blank">
+    <a href="embeddings/embedding_1429239499.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-62" class="collapse collapsable-details ">
+  <div id="embedding-60" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-2070528119.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=401k%20contributions%202009&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot18132104695337589558.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1429239499.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=401k%20contributions%202009&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot16745932996878598029.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -3055,10 +2973,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">13.615</span>
+  <span class="lead-duration duration">13.835</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-63">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-61">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -3071,11 +2989,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-63" class="collapse collapsable-details ">
+  <div id="element-61" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-64">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-62">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3087,13 +3005,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-64" class="inner-level collapse collapsable-details ">
+    <div id="before-62" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.240</span>
+  <span class="lead-duration duration">0.219</span>
 
           </div>
 
@@ -3110,7 +3028,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-65">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-63">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3122,7 +3040,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-65" class="inner-level collapse collapsable-details ">
+  <div id="steps-63" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3130,7 +3048,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.543</span>
+  <span class="lead-duration duration">3.262</span>
 
 </div>
 
@@ -3157,7 +3075,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;401k contributions 2010&quot;</span></span>
 
-  <span class="lead-duration duration">0.673</span>
+  <span class="lead-duration duration">0.420</span>
 
 </div>
 
@@ -3184,7 +3102,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">10.398</span>
+  <span class="lead-duration duration">10.152</span>
 
 </div>
 
@@ -3231,7 +3149,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-66">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-64">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3243,13 +3161,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-66" class="inner-level collapse collapsable-details ">
+    <div id="after-64" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.408</span>
+  <span class="lead-duration duration">0.553</span>
 
           </div>
 
@@ -3260,16 +3178,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-67" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-65" class="collapsable-control">
     <a>Search for text &quot;401k contributions 2010&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_-1964570630.html" download target="_blank">
+    <a href="embeddings/embedding_523965277.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-67" class="collapse collapsable-details ">
+  <div id="embedding-65" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-1964570630.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=401k%20contributions%202010&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot6269804695600823365.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_523965277.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=401k%20contributions%202010&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot12990067107499432449.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -3299,10 +3217,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">16.065</span>
+  <span class="lead-duration duration">14.709</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-68">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-66">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -3315,11 +3233,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-68" class="collapse collapsable-details ">
+  <div id="element-66" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-69">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-67">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3331,13 +3249,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-69" class="inner-level collapse collapsable-details ">
+    <div id="before-67" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.262</span>
+  <span class="lead-duration duration">0.223</span>
 
           </div>
 
@@ -3354,7 +3272,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-70">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-68">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3366,7 +3284,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-70" class="inner-level collapse collapsable-details ">
+  <div id="steps-68" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3374,7 +3292,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">3.028</span>
+  <span class="lead-duration duration">2.455</span>
 
 </div>
 
@@ -3401,7 +3319,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;IRA Savings calculator&quot;</span></span>
 
-  <span class="lead-duration duration">0.905</span>
+  <span class="lead-duration duration">0.988</span>
 
 </div>
 
@@ -3428,7 +3346,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">12.131</span>
+  <span class="lead-duration duration">11.265</span>
 
 </div>
 
@@ -3475,7 +3393,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-71">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-69">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3487,13 +3405,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-71" class="inner-level collapse collapsable-details ">
+    <div id="after-69" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.506</span>
+  <span class="lead-duration duration">0.499</span>
 
           </div>
 
@@ -3504,16 +3422,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-72" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-70" class="collapsable-control">
     <a>Search for text &quot;IRA Savings calculator&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_918759667.html" download target="_blank">
+    <a href="embeddings/embedding_-2005083294.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-72" class="collapse collapsable-details ">
+  <div id="embedding-70" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_918759667.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=IRA%20Savings%20calculator&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot4031980331147270749.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_-2005083294.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=IRA%20Savings%20calculator&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot4582634835629438920.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
@@ -3543,10 +3461,10 @@ Session ID: f765157ca04aa13be784e33925344b03
 </div>
 
 
-  <span class="lead-duration duration">14.652</span>
+  <span class="lead-duration duration">15.851</span>
 
 
-  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-73">
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-71">
 
 <div class="brief passed">
   <span class="keyword indention">Scenario Outline</span>
@@ -3559,11 +3477,11 @@ Session ID: f765157ca04aa13be784e33925344b03
   </span>
   <div class="description indention"></div>
 
-  <div id="element-73" class="collapse collapsable-details ">
+  <div id="element-71" class="collapse collapsable-details ">
 
 
   <div class="inner-level hooks-element-before">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-74">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-72">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3575,13 +3493,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="before-74" class="inner-level collapse collapsable-details ">
+    <div id="before-72" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">Before</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.beforeScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.265</span>
+  <span class="lead-duration duration">0.228</span>
 
           </div>
 
@@ -3598,7 +3516,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
 <div class="steps inner-level">
-  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-75">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-73">
 
 <div class="brief passed">
   <span class="keyword indention">Steps</span>
@@ -3610,7 +3528,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   </div>
 
-  <div id="steps-75" class="inner-level collapse collapsable-details ">
+  <div id="steps-73" class="inner-level collapse collapsable-details ">
       <div class="step">
 
 
@@ -3618,7 +3536,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Given</span>
   <span class="name">I have navigated to &quot;<span class="argument">en-us/help/gosystem-tax-rs/search.html</span>&quot; page on &quot;<span class="argument">tr</span>&quot; site</span>
 
-  <span class="lead-duration duration">2.512</span>
+  <span class="lead-duration duration">3.845</span>
 
 </div>
 
@@ -3645,7 +3563,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">When</span>
   <span class="name">I search for <span class="argument">&quot;Deleting temporary internet files onvio&quot;</span></span>
 
-  <span class="lead-duration duration">0.832</span>
+  <span class="lead-duration duration">1.075</span>
 
 </div>
 
@@ -3672,7 +3590,7 @@ Session ID: f765157ca04aa13be784e33925344b03
   <span class="keyword indention">Then</span>
   <span class="name">I should not see any search results with title URL containing these source names</span>
 
-  <span class="lead-duration duration">11.307</span>
+  <span class="lead-duration duration">10.929</span>
 
 </div>
 
@@ -3719,7 +3637,7 @@ Session ID: f765157ca04aa13be784e33925344b03
 
 
   <div class="inner-level hooks-element-after">
-    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-76">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#after-74">
 
 <div class="brief passed">
   <span class="keyword indention">Hooks</span>
@@ -3731,13 +3649,13 @@ Session ID: f765157ca04aa13be784e33925344b03
 
     </div>
 
-    <div id="after-76" class="inner-level collapse collapsable-details ">
+    <div id="after-74" class="inner-level collapse collapsable-details ">
         <div class="hook">
           <div class="brief passed">
             <span class="keyword indention">After</span>
               <span class="location name">com.tr.emcm.cucumber.utils.Hooks.afterScenario(io.cucumber.java.Scenario)</span>
 
-  <span class="lead-duration duration">0.416</span>
+  <span class="lead-duration duration">0.446</span>
 
           </div>
 
@@ -3748,16 +3666,16 @@ Session ID: f765157ca04aa13be784e33925344b03
 
   <div class="embeddings inner-level">
 <div class="embedding indention">
-  <div data-toggle="collapse" data-target="#embedding-77" class="collapsable-control">
+  <div data-toggle="collapse" data-target="#embedding-75" class="collapsable-control">
     <a>Search for text &quot;Deleting temporary internet files onvio&quot; similar to HHTC articles on Help and Support pages</a>
-    <a href="embeddings/embedding_1262081992.html" download target="_blank">
+    <a href="embeddings/embedding_749423624.html" download target="_blank">
       <span class="download-button glyphicon glyphicon-download-alt"></span>
     </a>
   </div>
-  <div id="embedding-77" class="collapse collapsable-details ">
+  <div id="embedding-75" class="collapse collapsable-details ">
     <div class="embedding-content">
       <div class="html-content">
-        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_1262081992.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=Deleting%20temporary%20internet%20files%20onvio&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot5435066390396425984.png&gt;&lt;/body&gt;"></iframe>
+        <iframe seamless="true" sandbox="allow-downloads allow-scripts" src="embeddings/embedding_749423624.html" srcdoc="&lt;body&gt;&lt;h2&gt;Cucumber Image Report&lt;/h2&gt;&lt;p&gt;Page URL: https://www-tr-com-qa-ams.ewp.thomsonreuters.com/en-us/help/gosystem-tax-rs/search.html#q=Deleting%20temporary%20internet%20files%20onvio&amp;t=gosystem-tax-rs-en-us-site&amp;sort=relevancy;&lt;/p&gt;&lt;p&gt;Published Date: &lt;/p&gt;&lt;img src=..\artifact\src\test\resources\baseline_images\CucumberHTMLReports/screenshot9543202408366266203.png&gt;&lt;/body&gt;"></iframe>
       </div>
     </div>
   </div>
